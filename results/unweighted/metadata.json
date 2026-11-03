@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "base_seed": 218,
+  "trials_per_condition": 30,
+  "runtime_repeats": 3,
+  "solvable_only": false,
+  "sizes": [
+    [
+      20,
+      20
+    ],
+    [
+      40,
+      40
+    ]
+  ],
+  "densities": [
+    0.1,
+    0.2
+  ],
+  "movements": [
+    4,
+    8
+  ],
+  "terrain_fraction": 0,
+  "runtime": "median of three accumulated search-step times; excludes snapshots and UI delays",
+  "population": "all means and sample SD use successful runs only; success rates include failures"
+}
