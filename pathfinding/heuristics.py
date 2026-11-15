@@ -16,3 +16,5 @@ def diagonal(a, b):
 
 
 HEURISTICS = {'manhattan': manhattan, 'euclidean': euclidean, 'diagonal': diagonal}
+
+
