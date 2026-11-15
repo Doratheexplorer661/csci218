@@ -149,3 +149,5 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(len(g.walls), 7)
         with self.assertRaises(ValueError):
             random_grid(density=1.1)
+
+
