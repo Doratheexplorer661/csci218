@@ -103,3 +103,5 @@ def dijkstra(grid, start, goal, movement=4):
 
 def astar(grid, start, goal, heuristic='manhattan', movement=4):
     return SearchSession(grid, start, goal, 'astar', heuristic, movement).run()
+
+
