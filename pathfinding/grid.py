@@ -2,6 +2,7 @@ import math
 
 
 class Grid:
+    """Represents the grid environment, including obstacles, terrain weights and movement rules."""
     def __init__(self, rows, cols, walls=(), weights=None):
         if (type(rows) is not int or type(cols) is not int
                 or rows <= 0 or cols <= 0):
