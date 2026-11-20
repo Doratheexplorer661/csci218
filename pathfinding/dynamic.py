@@ -2,6 +2,7 @@
 from .search import SearchSession
 
 
+
 class Navigator:
     def __init__(self, grid, start, goal, algorithm='astar', heuristic='manhattan', movement=4):
         self.grid, self.position, self.goal = grid, start, goal
