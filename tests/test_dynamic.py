@@ -3,6 +3,7 @@ from pathfinding import Grid
 from pathfinding.dynamic import Navigator
 
 
+
 class DynamicTests(unittest.TestCase):
     def test_replan_from_current_cell(self):
         n = Navigator(Grid(5, 7), (2, 0), (2, 6))
